@@ -8,20 +8,45 @@
     src: url(../fonts/DidactGothic.ttf);
 }
 
-header {
-    min-width: 100%;
-    height: 710px;
-    background-image: url("../images/landingCover.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+html {
+    /*min-width: 1500px;*/
 }
 
-p {
+/*body {*/
+    /*background-image: url("../images/newLanding.jpg");*/
+    /*background-size: 100% 100%;*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+
+header {
+    min-height: 710px;
+    min-width: 1100px;
+    background-image: url("../images/newLanding.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: -10px -8px 0px -8px;
+    overflow: hidden;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+}
+
+ul li{
     font-family: AlexBrush;
     font-size: 40px;
     float: left;
-    margin-right: 30px;
-    margin-top: 0px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 40px;
+}
+
+ul a:hover {
+    color: #7587a1;
 }
 
 header hr {
@@ -29,12 +54,32 @@ header hr {
     height: 30px;
     background-color: #000;
     float: left;
-    margin-top: 45px;
-    margin-right: 25px;
+    margin-top: 10px;
+    margin-left: 40px;
 }
 
 nav {
-    max-width: 100%;
-    max-height: 100%;
-    margin-right: auto;
+    width: 367px;
+    height: 51px;
+    border-radius: 18px;
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: rgba(255,255,255,.9);
+    margin-top: 10px;
 }
+
+#logo {
+    width: 790px;
+    background-color: rgba(255,255,255,.9);
+    border-radius: 60px;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+#logo img {
+    padding: 15px;
+}
+
