@@ -381,11 +381,39 @@ nav {
     padding: 15px;
 }
 
+footer {
+    background-color: #7587a1;
+    margin: 0px -8px 0px -8px;
+    overflow: hidden;
+    height: 150px;
+    text-align: right;
+}
 
+footer p {
+    padding-right: 20px;
+    margin-top: -230px;
+    font-family: Didact;
+    color: #fbbcca;
+}
 
+footer a {
+    text-decoration: none;
+    color: #fbbcca;
+}
 
+footer a:hover {
+    color: #fff;
+}
 
-
+#congrats {
+    text-align: left;
+    margin-left: 135px;
+    font-family: AlexBrush;
+    font-size: 100px;
+    margin-top: 20px;
+    color: #fbbcca;
+    letter-spacing: 5px;
+}
 
 
 
