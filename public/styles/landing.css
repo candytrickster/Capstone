@@ -155,6 +155,7 @@ nav {
     background-repeat: no-repeat;
     height: 1000px;
     overflow: hidden;
+    margin: -10px -8px 0px -8px;
 }
 
 #b {
@@ -188,12 +189,6 @@ nav {
     padding: 10px;
 }
 
-.b_desc {
-    font-family: Didact;
-    font-size: 24px;
-    color: #9871a8;
-}
-
 .b_feature {
     width: 500px;
     height: 300px;
@@ -211,13 +206,83 @@ nav {
     border: 2px solid #fbbcca;
 }
 
-.b_desc {
-    padding: 5px;
-    font-family: Quicksand;
-    font-size: 20px;
+#checklist {
+    height: 750px;
+    overflow: hidden;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cl_title {
+    font-family: AlexBrush;
+    font-size: 50px;
+    margin-top: 20px;
+    color: #7587a1;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.cl_feature {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    float: left;
+    padding: 50px;
+}
+
+.cl_feature img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: -40px;
+    border: 2px solid #fbbcca;
+    border-radius: 100%;
+}
+
+.cl_feature2 {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    float: left;
+    padding: 50px;
+}
+
+.cl_feature2 img {
+    width: 144px;
+    height: 144px;
+    padding: 10px;
+}
+
+#cl {
+    font-family: AlexBrush;
+    font-size: 70px;
+    margin-top: 100px;
+    color: #9871a8;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#check {
+    overflow: hidden;
+    background-color: rgba(250,250,250,.9);
+    margin: 0px -8px 0px -8px;
 }
 
 
+
+
+
+
+
+#ideaFolder {
+    background-image: url("../images/flower2.jpg");
+    background-repeat: no-repeat;
+    height: 1000px;
+    overflow: hidden;
+    margin: 0px -8px 0px -8px;
+}
 
 
 
