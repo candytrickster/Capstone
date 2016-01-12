@@ -11,3 +11,8 @@ end
 get '/login' do
   erb :login
 end
+
+get '/home' do
+  erb :home
+end
+

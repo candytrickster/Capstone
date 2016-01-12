@@ -266,9 +266,10 @@ nav {
 }
 
 #ideaFolder {
-    background-image: url("../images/flower2.jpg");
+    background-image: url("../images/flower5.jpg");
     background-repeat: no-repeat;
     height: 1000px;
+    background-size: 100% 100%;
     overflow: hidden;
     margin: 0px -8px 0px -8px;
 }
@@ -347,7 +348,7 @@ nav {
 #v {
     font-family: AlexBrush;
     font-size: 70px;
-    margin-top: -40px;
+    margin-top: 40px;
     color: #7587a1;
     width: 200px;
     margin-left: auto;
