@@ -1,0 +1,19 @@
+@font-face {
+    font-family: AlexBrush;
+    src: url(../fonts/AlexBrush-Regular.ttf);
+}
+
+@font-face {
+    font-family: Didact;
+    src: url(../fonts/DidactGothic.ttf);
+}
+
+input[type='text'] {
+    color: orange;
+    width:400px;
+    margin: 30px;
+    height: 25px;
+    font-family: Didact;
+    font-size: 24px;
+}
+
