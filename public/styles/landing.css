@@ -382,6 +382,32 @@ nav {
     padding: 15px;
 }
 
+#looking {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#looking p {
+    font-family: Didact;
+    font-size: 20px;
+    color: #9871a8;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+#looking a {
+    font-family: Didact;
+    font-size: 20px;
+    color: #7587a1;
+    text-decoration: none;
+}
+
+#looking a:hover {
+    color: #fbbcca;
+}
+
 footer {
     background-color: #7587a1;
     margin: 0px -8px 0px -8px;
