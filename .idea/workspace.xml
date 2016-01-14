@@ -2,29 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="651969f8-e5eb-4e58-a31c-9e698fc5f05c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/attire.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/budget.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/checklist.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/color.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/editCountdown.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/examples.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/faq.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/ideaFolder.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/invite.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/seating.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/songs.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/themes.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/vendors.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/findCouple.erb" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/alerts.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/landingCover.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/newLanding.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/views/layouts/layout.erb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.rb" afterPath="$PROJECT_DIR$/index.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/landing.css" afterPath="$PROJECT_DIR$/public/styles/landing.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/main.css" afterPath="$PROJECT_DIR$/public/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/attire.erb" afterPath="$PROJECT_DIR$/views/attire.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/budget.erb" afterPath="$PROJECT_DIR$/views/budget.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/checklist.erb" afterPath="$PROJECT_DIR$/views/checklist.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/color.erb" afterPath="$PROJECT_DIR$/views/color.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/editCountdown.erb" afterPath="$PROJECT_DIR$/views/editCountdown.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/examples.erb" afterPath="$PROJECT_DIR$/views/examples.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/faq.erb" afterPath="$PROJECT_DIR$/views/faq.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home.erb" afterPath="$PROJECT_DIR$/views/home.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/ideaFolder.erb" afterPath="$PROJECT_DIR$/views/ideaFolder.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/invite.erb" afterPath="$PROJECT_DIR$/views/invite.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/landing.erb" afterPath="$PROJECT_DIR$/views/landing.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/seating.erb" afterPath="$PROJECT_DIR$/views/seating.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/signup.erb" afterPath="$PROJECT_DIR$/views/signup.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/songs.erb" afterPath="$PROJECT_DIR$/views/songs.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/themes.erb" afterPath="$PROJECT_DIR$/views/themes.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/vendors.erb" afterPath="$PROJECT_DIR$/views/vendors.erb" />
     </list>
     <ignored path="Capstone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +40,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Capstone@main.coverage" NAME="main Coverage Results" MODIFIED="1452111972348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../RUBY/assignments/selfies" MODULE_NAME="Capstone" />
     <SUITE FILE_PATH="coverage/Capstone@upload.coverage" NAME="upload Coverage Results" MODIFIED="1452113233813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../RUBY/in_class/uploading" MODULE_NAME="Capstone" />
-    <SUITE FILE_PATH="coverage/Capstone@index.coverage" NAME="index Coverage Results" MODIFIED="1452706353333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Capstone" />
+    <SUITE FILE_PATH="coverage/Capstone@index.coverage" NAME="index Coverage Results" MODIFIED="1452722307013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Capstone" />
     <SUITE FILE_PATH="coverage/Capstone@ruby_basics_1.coverage" NAME="ruby_basics_1 Coverage Results" MODIFIED="1452110324335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../RUBY/in_class/ruby_basics" MODULE_NAME="Capstone" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -52,61 +52,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/home.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.346153">
-              <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/styles/main.css">
+      <file leaf-file-name="invite.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/invite.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9132653">
-              <caret line="136" column="13" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landing.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/styles/landing.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.115385">
-              <caret line="396" column="17" selection-start-line="396" selection-start-column="17" selection-end-line="396" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landing.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/landing.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.769231">
-              <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/login.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.78061223">
+              <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -121,14 +81,29 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/views/login.erb" />
-        <option value="$PROJECT_DIR$/views/signup.erb" />
         <option value="$PROJECT_DIR$/public/styles/signing.css" />
         <option value="$PROJECT_DIR$/views/layouts/layout.erb" />
-        <option value="$PROJECT_DIR$/index.rb" />
-        <option value="$PROJECT_DIR$/views/landing.erb" />
         <option value="$PROJECT_DIR$/public/styles/landing.css" />
-        <option value="$PROJECT_DIR$/views/home.erb" />
         <option value="$PROJECT_DIR$/public/styles/main.css" />
+        <option value="$PROJECT_DIR$/views/landing.erb" />
+        <option value="$PROJECT_DIR$/index.rb" />
+        <option value="$PROJECT_DIR$/views/signup.erb" />
+        <option value="$PROJECT_DIR$/views/editCountdown.erb" />
+        <option value="$PROJECT_DIR$/views/findCouple.erb" />
+        <option value="$PROJECT_DIR$/views/home.erb" />
+        <option value="$PROJECT_DIR$/views/attire.erb" />
+        <option value="$PROJECT_DIR$/views/budget.erb" />
+        <option value="$PROJECT_DIR$/views/checklist.erb" />
+        <option value="$PROJECT_DIR$/views/color.erb" />
+        <option value="$PROJECT_DIR$/views/examples.erb" />
+        <option value="$PROJECT_DIR$/views/faq.erb" />
+        <option value="$PROJECT_DIR$/views/ideaFolder.erb" />
+        <option value="$PROJECT_DIR$/views/registry.erb" />
+        <option value="$PROJECT_DIR$/views/seating.erb" />
+        <option value="$PROJECT_DIR$/views/songs.erb" />
+        <option value="$PROJECT_DIR$/views/themes.erb" />
+        <option value="$PROJECT_DIR$/views/vendors.erb" />
+        <option value="$PROJECT_DIR$/views/invite.erb" />
       </list>
     </option>
   </component>
@@ -138,8 +113,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="766" />
-    <option name="width" value="1154" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -211,24 +186,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Capstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Capstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,10 +406,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="766" y="0" width="1154" height="1040" extended-state="0" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3040422" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3665254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -535,14 +492,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/signup.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/signing.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.769231">
@@ -612,26 +561,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.846154">
+          <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/landing.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.115385">
-          <caret line="396" column="17" selection-start-line="396" selection-start-column="17" selection-end-line="396" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/landing.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.769231">
-          <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state vertical-scroll-proportion="-10.846154">
+          <caret line="443" column="0" selection-start-line="443" selection-start-column="0" selection-end-line="443" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -639,23 +580,159 @@
     <entry file="file://$PROJECT_DIR$/index.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/attire.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.923077">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/budget.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.923077">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/checklist.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.538462">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/color.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.923077">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/editCountdown.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/examples.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.923077">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/faq.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.923077">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/findCouple.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/ideaFolder.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.576923">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/landing.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.115385">
+          <caret line="87" column="39" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/seating.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.923077">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/signup.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/songs.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.923077">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/vendors.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5136054">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/themes.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.576923">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/registry.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95408165">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/home.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.346153">
-          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/main.css">
+    <entry file="file://$PROJECT_DIR$/views/invite.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9132653">
-          <caret line="136" column="13" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.78061223">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
           <folding />
         </state>
       </provider>

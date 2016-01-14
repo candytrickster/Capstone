@@ -72,6 +72,10 @@ get '/vendors' do
   erb :vendors
 end
 
+get '/findCouple' do
+  erb :findCouple
+end
+
 
 
 
